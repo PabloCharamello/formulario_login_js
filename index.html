@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Inicip de sesión PCh</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="form-group">
+        <div style="margin-bottom: 10px">
+          <h2>Credenciales de testeo:</h2>
+          <p>Usuario: prueba</p>
+          <p>Contraseña: 1234</p>
+        </div>
+        <input
+          required
+          type="text"
+          id="user"
+          class="form-control"
+          name="userName"
+          placeholder="Usuario"
+        />
+        <input
+          required
+          type="password"
+          id="password"
+          class="form-control"
+          name="passsword"
+          placeholder="Contraseña"
+        />
+        <button class="login-button" type="submit" onclick="login()">
+          INICIAR SESIÓN
+        </button>
+      </div>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>
