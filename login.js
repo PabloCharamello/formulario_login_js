@@ -1,4 +1,4 @@
-let userName = "prueba";
+let userName = "admin";
 let pass = "1234";
 
 function login() {
@@ -8,7 +8,8 @@ function login() {
   password = document.getElementById("password").value;
 
   if (user === userName && password === pass) {
-    window.location = "index2.html";
+    window.location.href =
+      "https://pablocharamello.github.io/landingpage_trabajo_integrador1_codo_a_codo/";
   } else {
     alert("Credenciales incorrectas");
   }
